@@ -6,6 +6,14 @@ public class Test1 {
 		// TODO Auto-generated method stub
 
 		System.out.println("This is mt test 1 class");
+		
+		int z=sum(45, 55);
+		
+		System.out.println(z);
+	}
+	
+	public static int sum(int x, int y) {
+		return x+y;
 	}
 
 }

@@ -8,6 +8,8 @@ public class Base {
 		System.out.println("This is my base class");
 		
 		compare("Testing", "Test");
+		
+		init_Browser();
 	}
 	
 	public static void compare(String a, String b) {
@@ -16,6 +18,10 @@ public class Base {
 		} else {
 			System.out.println("Both are not equal");
 		}
+	}
+	
+	public static void init_Browser(){
+		System.out.println("Initiate chrome browser");
 	}
 
 }
